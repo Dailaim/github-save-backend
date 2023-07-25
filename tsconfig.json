@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "lib": ["ESNext", "DOM"],
+    "target": "ES2022",
+    "module": "ES2022", // Cambiado de "ES2022" a "ES2020" para usar ESM
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node", "jest"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"]
+}
