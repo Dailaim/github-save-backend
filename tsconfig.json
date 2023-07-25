@@ -5,10 +5,10 @@
     "outDir": "dist",
     "lib": ["ESNext", "DOM"],
     "target": "ES2022",
-    "module": "ES2022", // Cambiado de "ES2022" a "ES2020" para usar ESM
+    "module": "ES2022", 
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "types": ["node", "jest"],
+    "types": ["node"],
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
